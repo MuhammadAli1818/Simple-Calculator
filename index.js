@@ -1,15 +1,17 @@
 #! /usr/bin/env node
-console.log("Code with Muhammad Ali");
 import inquirer from "inquirer";
+console.log("\n\t\t<<<=============================>>>");
+console.log("\t<<<========== Code With Muhammad Ali ==========>>>");
+console.log("\t\t<<<=============================>>>\n");
 //  * @description - This is a simple calculator program that takes two numbers and an operator and performs the operation on the two numbers.
 let answer = await inquirer.prompt([
     {
-        message: "Enter First Number",
+        message: "Enter First Number:",
         type: "number",
         name: "firstNumber",
     },
     {
-        message: "Enter Second Number",
+        message: "Enter Second Number:",
         type: "number",
         name: "secondNumber",
     },

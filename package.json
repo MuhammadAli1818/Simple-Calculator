@@ -1,6 +1,6 @@
 {
   "name": "simple-calculator-mdali",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Calculator use all members",
   "main": "index.js",
   "type": "module",
